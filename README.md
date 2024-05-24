@@ -11,6 +11,8 @@ Once installed you can either open the project in the container by clicking the 
 
 The .devcontainer/docker_postgres_init.sql file will be used in the container build process and create the required database tables.
 
+If necessary update the .env file with your own configurations. (If you want to fork this project make sure to track .env in .gitignore and add an .env.example with dummy config values in your repository instead.)
+
 Once inside the container run:
 ```bash
 $ npm install
