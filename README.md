@@ -9,6 +9,8 @@ The easiest way to get it up and running is by using the VSCode extension Dev Co
 Once installed you can either open the project in the container by clicking the popup on the right or in the menu through the bottom left corner button. 
 ![image](https://github.com/tiagofs/uphold-ticker-bot/assets/20630774/d01b6440-e1e6-4882-9f06-ca4171ce0e24)
 
+The .devcontainer/docker_postgres_init.sql file will create the required database tables.
+
 Once inside the container run:
 ```bash
 $ npm install
